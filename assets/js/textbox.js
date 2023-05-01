@@ -1,11 +1,11 @@
 import Creater from "./creater.js";
 
-class Textbox extends Creater {
+class Textarea extends Creater {
   constructor(parent) {
-    super(parent, 'textbox', 'text-content');
+    super(parent, 'textarea', 'text-content');
   }
 }
 
-const createTextbox =() => new Textbox(document.body);
+const createTextarea =() => new Textarea(document.body);
 
-export default createTextbox;
+export default createTextarea;

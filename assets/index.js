@@ -1,7 +1,7 @@
 import createHeader from "./js/header.js";
 import createKeyboard from "./js/keyboard.js";
-import createTextbox from "./js/textbox.js";
+import createTextarea from "./js/textbox.js";
 
 createHeader();
-const text = createTextbox();
+const text = createTextarea();
 createKeyboard(text);

@@ -19,7 +19,8 @@ html {
 }
    
 .subtitle {
-  text-align: right;
+  text-align: center;
+  font-size: 20tapx;
 }
    
 .subtitle-second {
@@ -66,10 +67,10 @@ html {
   width: 55px;
   height: 55px;
   margin: 2px;
-  background: rgb(126, 129, 129);
+  background: rgb(131, 131, 131);
   padding: 0px;
   cursor: pointer;
-  border-color: rgb(89 129 129);
+  border-color: rgb(99, 99, 99);
 }
 
 .key_backspace{
@@ -103,6 +104,35 @@ html {
 }
 
 .key:hover {
-  background-color: #5bb89c6b; 
+  background-color: #bbbbbb6b; 
+  transition: all ease-in-out .1s;
+}
+
+.key_backspace, 
+.key_tab,
+.key_capslock,
+.key_enter,
+.key_leftshift,
+.key_rightshift,
+.key_del,
+.key_leftctrl,
+.key_rightctrl,
+.key_win,
+.key_leftalt,
+.key_rightalt,
+.key_space {
+  background: rgb(73, 73, 73);
+  font-size: 17px;
+}
+
+.key.active, .key.capslk {
+  background-color: #55fccb6b;
+  border-radius: 15px;
+  transition: all ease-in-out .1s; 
+}
+  
+.key:active {
+  background-color: #35a33e6b;
+  border-radius: 15px;
   transition: all ease-in-out .1s;
 }
