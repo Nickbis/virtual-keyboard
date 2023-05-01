@@ -26,4 +26,17 @@ html {
   font-size: 20px;
   padding-bottom: 5px;
 }
-   
+
+.text-content {
+  display: block;
+  width: 870px;
+  height: 150px;
+  margin: 0px auto 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  resize: none;
+  overflow: auto;
+  outline: none;
+  border: 1px solid;
+}
