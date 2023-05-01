@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.header {
+  padding: 5px 20px 0;
+  width: 865px;
+  margin: 0 auto;
+  display: block;
+  flex-direction:  column;
+  color: #0d4606;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  line-height: 40px;
+}
+   
+.subtitle .subtitle-second {
+  font-size: 16px;
+}
+   
+.text-content {
+  display: block;
+  width: 870px;
+  height: 150px;
+  margin: 0px auto 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  resize: none;
+  overflow: auto;
+  outline: none;
+  border: 1px solid;
+}
+
+.keyboard {
+    width: 890px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #bdbbbb;
+    padding: 6px;
+    border: 1px solid;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+  
+.key {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 100px;
+  color: #ffffff;
+  width: 55px;
+  height: 55px;
+  margin: 2px;
+  background: rgb(131, 131, 131);
+  padding: 0px;
+  cursor: pointer;
+  border-color: rgb(99, 99, 99);
+}
+
+.key_backspace{
+  width: 150px;
+}
+  
+.key_tab {
+  width: 70px;
+}
+  
+.key_capslock,
+.key_enter {
+  width: 130px;
+}
+  
+.key_leftshift {
+  width: 135px;
+}
+  
+.key_rightshift {
+  width: 113px;
+}
+  
+.key_leftctrl {
+  width: 80px;
+}
+  
+  
+.key_space {
+  width: 420px;
+}
+
+.key:hover {
+  background-color: #bbbbbb6b; 
+  transition: all ease-in-out .1s;
+}
+
+.key_backspace, 
+.key_tab,
+.key_capslock,
+.key_enter,
+.key_leftshift,
+.key_rightshift,
+.key_del,
+.key_leftctrl,
+.key_rightctrl,
+.key_win,
+.key_leftalt,
+.key_rightalt,
+.key_space {
+  background: rgb(73, 73, 73);
+  font-size: 17px;
+}
+
+.key.active, .key.capslk {
+  background-color: #55fccb6b;
+  border-radius: 15px;
+  transition: all ease-in-out .1s; 
+}
+  
+.key:active {
+  background-color: #35a33e6b;
+  border-radius: 15px;
+  transition: all ease-in-out .1s;
+}
