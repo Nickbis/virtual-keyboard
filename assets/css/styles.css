@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.header {
+  padding: 5px 20px 0;
+  width: 865px;
+  margin: 0 auto;
+  display: block;
+  flex-direction:  column;
+  color: #0d4606;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  line-height: 35px;
+}
+   
+.subtitle {
+  text-align: right;
+}
+   
+.subtitle-second {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+   
